@@ -1,1 +1,8 @@
-h1 Dashboard
+h1 DASHBOARD
+
+.dashboard-cont
+  = form_for :user_phone, url: phone_numbers_path, method: :patch, remote: true do
+    .big-img-cont
+      #images= render('images')
+      
+    #phones-with-images= render('phones-image')
